@@ -1,0 +1,250 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.container.nowrap {
+    flex-wrap: nowrap !important;
+}
+
+.container.row {
+    flex-direction: row;
+}
+
+.container.col {
+    flex-direction: column;
+}
+
+.container.fstart {
+    align-items: flex-start;
+}
+
+.container.center {
+    align-items: center !important;
+}
+
+.container.center.center {
+    justify-content: center;
+}
+
+.container.fillw,
+.fillw {
+    width: 100%;
+}
+
+.container.fillh {
+    height: 100%;
+}
+
+.container.sbetween {
+    justify-content: space-between !important;
+    gap: 0;
+}
+
+.container.fillwh {
+    width: 100%;
+    height: 100%;
+}
+
+.container.hugw {
+    width: fit-content;
+}
+
+.container.hugh {
+    height: fit-content;
+}
+
+.container .w50p {
+    width: 50%;
+}
+
+.container.hughwh {
+    width: fit-content;
+    height: fit-content;
+}
+
+.container.fullscreen {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container.p75 {
+    padding: 75px;
+}
+
+.container.g60 {
+    gap: 60px;
+}
+
+.container.g100 {
+    gap: 100px;
+}
+
+.container.g75 {
+    gap: 75px;
+}
+
+.container.g50 {
+    gap: 50px;
+}
+
+.container.g30 {
+    gap: 30px;
+}
+
+.container.g25 {
+    gap: 25px;
+}
+
+.container.g20 {
+    gap: 20px;
+}
+
+.container.g15 {
+    gap: 15px;
+}
+
+.container.g10 {
+    gap: 10px;
+}
+
+.container.g5 {
+    gap: 5px;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
