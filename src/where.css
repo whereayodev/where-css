@@ -20,11 +20,11 @@
     align-items: flex-start;
 }
 
-.container.center {
-    align-items: center !important;
+.container.align.center {
+    align-items: center;
 }
 
-.container.center.center {
+.container.justify.center {
     justify-content: center;
 }
 
@@ -69,49 +69,333 @@
     min-height: 100vh;
 }
 
-.container.p75 {
+/* Padding */
+
+.p5 {
+    padding: 5px;
+  }
+  
+  .p10 {
+    padding: 10px;
+  }
+  
+  .p15 {
+    padding: 15px;
+  }
+  
+  .p20 {
+    padding: 20px;
+  }
+  
+  .p25 {
+    padding: 25px;
+  }
+  
+  .p30 {
+    padding: 30px;
+  }
+  
+  .p35 {
+    padding: 35px;
+  }
+  
+  .p40 {
+    padding: 40px;
+  }
+  
+  .p45 {
+    padding: 45px;
+  }
+  
+  .p50 {
+    padding: 50px;
+  }
+  
+  .p55 {
+    padding: 55px;
+  }
+  
+  .p60 {
+    padding: 60px;
+  }
+  
+  .p65 {
+    padding: 65px;
+  }
+  
+  .p70 {
+    padding: 70px;
+  }
+  
+  .p75 {
     padding: 75px;
-}
+  }
+  
+  .p80 {
+    padding: 80px;
+  }
+  
+  .p85 {
+    padding: 85px;
+  }
+  
+  .p90 {
+    padding: 90px;
+  }
+  
+  .p95 {
+    padding: 95px;
+  }
+  
+  .p100 {
+    padding: 100px;
+  }
+  
 
-.container.g60 {
-    gap: 60px;
-}
-
-.container.g100 {
-    gap: 100px;
-}
-
-.container.g75 {
-    gap: 75px;
-}
-
-.container.g50 {
-    gap: 50px;
-}
-
-.container.g30 {
-    gap: 30px;
-}
-
-.container.g25 {
-    gap: 25px;
-}
-
-.container.g20 {
-    gap: 20px;
-}
-
-.container.g15 {
-    gap: 15px;
-}
-
-.container.g10 {
-    gap: 10px;
-}
+/* Gap */
 
 .container.g5 {
     gap: 5px;
-}
+  }
+  
+  .container.g10 {
+    gap: 10px;
+  }
+  
+  .container.g15 {
+    gap: 15px;
+  }
+  
+  .container.g20 {
+    gap: 20px;
+  }
+  
+  .container.g25 {
+    gap: 25px;
+  }
+  
+  .container.g30 {
+    gap: 30px;
+  }
+  
+  .container.g35 {
+    gap: 35px;
+  }
+  
+  .container.g40 {
+    gap: 40px;
+  }
+  
+  .container.g45 {
+    gap: 45px;
+  }
+  
+  .container.g50 {
+    gap: 50px;
+  }
+  
+  .container.g55 {
+    gap: 55px;
+  }
+  
+  .container.g60 {
+    gap: 60px;
+  }
+  
+  .container.g65 {
+    gap: 65px;
+  }
+  
+  .container.g70 {
+    gap: 70px;
+  }
+  
+  .container.g75 {
+    gap: 75px;
+  }
+  
+  .container.g80 {
+    gap: 80px;
+  }
+  
+  .container.g85 {
+    gap: 85px;
+  }
+  
+  .container.g90 {
+    gap: 90px;
+  }
+  
+  .container.g95 {
+    gap: 95px;
+  }
+  
+  .container.g100 {
+    gap: 100px;
+  }
+  
+/* Width */
+
+.container .w5p {
+    width: 5%;
+  }
+  
+  .container .w10p {
+    width: 10%;
+  }
+  
+  .container .w15p {
+    width: 15%;
+  }
+  
+  .container .w20p {
+    width: 20%;
+  }
+  
+  .container .w25p {
+    width: 25%;
+  }
+  
+  .container .w30p {
+    width: 30%;
+  }
+  
+  .container .w35p {
+    width: 35%;
+  }
+  
+  .container .w40p {
+    width: 40%;
+  }
+  
+  .container .w45p {
+    width: 45%;
+  }
+  
+  .container .w50p {
+    width: 50%;
+  }
+  
+  .container .w55p {
+    width: 55%;
+  }
+  
+  .container .w60p {
+    width: 60%;
+  }
+  
+  .container .w65p {
+    width: 65%;
+  }
+  
+  .container .w70p {
+    width: 70%;
+  }
+  
+  .container .w75p {
+    width: 75%;
+  }
+  
+  .container .w80p {
+    width: 80%;
+  }
+  
+  .container .w85p {
+    width: 85%;
+  }
+  
+  .container .w90p {
+    width: 90%;
+  }
+  
+  .container .w95p {
+    width: 95%;
+  }
+  
+  .container .w100p {
+    width: 100%;
+  }
+  
+  .container .w5vw {
+    width: 5vw;
+  }
+  
+  .container .w10vw {
+    width: 10vw;
+  }
+  
+  .container .w15vw {
+    width: 15vw;
+  }
+  
+  .container .w20vw {
+    width: 20vw;
+  }
+  
+  .container .w25vw {
+    width: 25vw;
+  }
+  
+  .container .w30vw {
+    width: 30vw;
+  }
+  
+  .container .w35vw {
+    width: 35vw;
+  }
+  
+  .container .w40vw {
+    width: 40vw;
+  }
+  
+  .container .w45vw {
+    width: 45vw;
+  }
+  
+  .container .w50vw {
+    width: 50vw;
+  }
+  
+  .container .w55vw {
+    width: 55vw;
+  }
+  
+  .container .w60vw {
+    width: 60vw;
+  }
+  
+  .container .w65vw {
+    width: 65vw;
+  }
+  
+  .container .w70vw {
+    width: 70vw;
+  }
+  
+  .container .w75vw {
+    width: 75vw;
+  }
+  
+  .container .w80vw {
+    width: 80vw;
+  }
+  
+  .container .w85vw {
+    width: 85vw;
+  }
+  
+  .container .w90vw {
+    width: 90vw;
+  }
+  
+  .container .w95vw {
+    width: 95vw;
+  }
+  
+  .container .w100vw {
+    width: 100vw;
+  }
+  
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
